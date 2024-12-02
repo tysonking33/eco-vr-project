@@ -5,6 +5,7 @@ import React from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
+import TeamSection from './components/TeamSection';
 
 // Remove the default logo import and CSS import if not needed
 import './App.css';
@@ -20,6 +21,9 @@ function App() {
 
       {/* Features section component */}
       <FeaturesSection />
+
+      {/* Features section component */}
+      <TeamSection />
     </div>
   );
 }
