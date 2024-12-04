@@ -1,4 +1,3 @@
-// src/components/FeaturesSection.js
 import React from 'react';
 
 function FeaturesSection() {
@@ -9,15 +8,21 @@ function FeaturesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="p-6 border border-gray-200 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-2">Interactive Lessons</h3>
-            <p>Engage with interactive lessons that teach sustainable practices in a fun and immersive way.</p>
+            <p>
+              Engage with interactive lessons that teach sustainable practices in a fun and immersive way.
+            </p>
           </div>
           <div className="p-6 border border-gray-200 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-2">3D Simulations</h3>
-            <p>Experience realistic 3D simulations of eco-friendly activities and explore virtual ecosystems.</p>
+            <p>
+              Experience realistic 3D simulations of eco-friendly activities and explore virtual ecosystems.
+            </p>
           </div>
           <div className="p-6 border border-gray-200 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-2">Problem Solving Challenges</h3>
-            <p>Test your problem-solving skills with challenges that simulate real-world environmental issues.</p>
+            <p>
+              Test your problem-solving skills with challenges that simulate real-world environmental issues.
+            </p>
           </div>
         </div>
       </div>
